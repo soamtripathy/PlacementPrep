@@ -1,2 +1,2 @@
-#CrackYourPlacement \n
+#CrackYourPlacement /n
 Practising DSA problem
