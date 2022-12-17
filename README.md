@@ -1,2 +1,5 @@
-#CrackYourPlacement </br>
-Practising DSA problem
+- Practicing DSA question
+- Storing my daily commit
+- Tracking Progress through this repo
+- Preferable language is Python
+
