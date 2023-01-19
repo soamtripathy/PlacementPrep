@@ -4,7 +4,7 @@ Linked Lists are a data structure that store data in the form of a chain. The st
 You can think of it as an actual chain, where each ring or node is connected.
 Something like this
 
-[A chain](https://www.freecodecamp.org/news/content/images/2022/09/A-chain.png)
+![A chain](https://www.freecodecamp.org/news/content/images/2022/09/A-chain.png)
 
 Like every other data structure, linked lists have their pros and cons:
 
@@ -35,7 +35,7 @@ You just have to realize that every item that you will be adding to the list is 
 Remember that a Linked List is similar to how a chain is coupled together.
 Joe is here with some rings, and he is going to help us.
 
-[Joe-and-the-chain](https://www.freecodecamp.org/news/content/images/2022/09/Joe-and-the-chain.png)
+![Joe-and-the-chain](https://www.freecodecamp.org/news/content/images/2022/09/Joe-and-the-chain.png)
 
 I will be using this to illustrate as we go...so you can think along these lines (this is not an art class – I repeat, this is not an art class :) ) .
 
@@ -66,7 +66,7 @@ class LinkedList:
 ```
 The `append()` method lets you add a new node to the list. Let's explore how it works.
 
-[append](https://www.freecodecamp.org/news/content/images/2022/09/append.png)
+![append](https://www.freecodecamp.org/news/content/images/2022/09/append.png)
 
 If I have two values – say 1 and 2 – and I want to add them to the list, the first thing is to define them as individual nodes (that is, as rings of a chain). I can do that like this:
 ```Python
@@ -110,7 +110,7 @@ class LinkedList:
 ```
 So what we are doing here is simply going through each node to see if that is the value we want to remove. But as we move through the list, we have to keep track of the value before (we still have to join the list back together). We do this with `prev = current` as you can see above or below :).
 
-[delete-1](https://www.freecodecamp.org/news/content/images/2022/09/delete-1.png)
+![delete-1](https://www.freecodecamp.org/news/content/images/2022/09/delete-1.png)
 
 So when the node has been found, the `prev` which contains the node before it, can be easily switched (that is, the next value) to point to another node – in this case the other nodes connected to the node we want to remove. I hope this makes sense :).
 
@@ -122,7 +122,7 @@ When you hold a chain, and you actually want to increase the length of the chain
 2. Add it to the end of the chain (kind of similar to 1)
 3. Or you can add it at any point in the middle (a little trickier)
 
-[insert3](https://www.freecodecamp.org/news/content/images/2022/09/delete-1.png)
+![insert3](https://www.freecodecamp.org/news/content/images/2022/09/delete-1.png)
 
 One thing you should have in mind is that wherever you decide to add it, you have to join the other nodes back to it. That's only possible if you keep track of the other nodes with a loop.
 
@@ -165,7 +165,7 @@ Let's work on displaying the values of our linked list in any format you want �
 
 This is pretty straightforward, similar to a physical chain: you just look through everywhere there is a node and get the value, then move to the next node:
 
-[print](https://www.freecodecamp.org/news/content/images/2022/09/print.png)
+![print](https://www.freecodecamp.org/news/content/images/2022/09/print.png)
 
 ```Python
 class LinkedList:   
